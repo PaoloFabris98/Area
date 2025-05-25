@@ -14,8 +14,14 @@ raggio = 2
 areaCerchio = ((raggio**2) * pi)
 print("Area Cerchio:",areaCerchio)
 
+velocitàIniziale = 0
+velocitàFinale = 100
+acceleration = 50
+displacement = (((velocitàFinale**2) - (velocitàIniziale **2)) / (acceleration*2))
+
+print("Displacement:",displacement)
 
 a = input("Inserisci un numero: ")
 b = 0.621371
-
 print("Miglia:",(int(a)*b))
+
