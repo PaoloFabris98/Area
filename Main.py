@@ -21,7 +21,21 @@ displacement = (((velocitàFinale**2) - (velocitàIniziale **2)) / (acceleration
 
 print("Displacement:",displacement)
 
-a = input("Inserisci un numero: ")
-b = 0.621371
-print("Miglia:",(int(a)*b))
+#a = input("Inserisci un numero: ")
+#b = 0.621371
+#print("Miglia:",(int(a)*b))
 
+
+
+# surface area of cuboid
+
+height = 5
+breadth = 7
+length = 10
+
+frontSurface = 2*(height*length)
+bottomSurface = 2*(length*breadth)
+leftSurface = 2*(height*breadth)
+totalSurface = frontSurface + bottomSurface + leftSurface
+
+print("Cuboid Area Surface",totalSurface)
